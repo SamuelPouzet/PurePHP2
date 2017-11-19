@@ -20,8 +20,6 @@ class IndexController extends ControllerGeneral
     {
         parent::__construct($request, $response);
 
-        $pizza = new Index\Pizza();
-
     }
 
 }

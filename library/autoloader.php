@@ -30,7 +30,6 @@ class autoloader
         if($location == 'vendor'){
             $absPath = ROOT_PATH . DS . $path;
         }elseif($location == 'library'){
-
             $absPath = ROOT_PATH . DS . $path;
         }else{
             $absPath = APP_PATH . DS . $path;
