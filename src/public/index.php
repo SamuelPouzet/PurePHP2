@@ -14,6 +14,7 @@ define('APP_PATH', SRC_PATH . DS . 'app');
 define('LIB_PATH', ROOT_PATH . DS . 'library');
 define('VENDOR_PATH', ROOT_PATH . DS . 'vendor');
 define('CONFIG_PATH', ROOT_PATH . DS . 'config');
+define('PURE_PATH', ROOT_PATH . DS . 'pure');
 
 session_start();
 

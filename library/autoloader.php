@@ -31,7 +31,10 @@ class autoloader
             $absPath = ROOT_PATH . DS . $path;
         }elseif($location == 'library'){
             $absPath = ROOT_PATH . DS . $path;
-        }else{
+        }elseif ($location == 'pure') {
+            throw new Exception('Aucun accès à la console n\'est admis.');
+        }else
+        {
             $absPath = APP_PATH . DS . $path;
         }
 
